@@ -1,0 +1,47 @@
+<view class="container">
+  <!--顶部头像-->
+  <view class="top">
+    <navigator url="../login/login" hover-class="navigator-hover" class="photo">
+      <image src="http://ojhq3mgil.bkt.clouddn.com/478/20161227/201612271616015049.jpg"></image>
+    </navigator>
+    <view class="name">红尘陌上</view>
+    <view class="detail">95年*天秤座*165cm*c杯*成都</view>
+    <view class="flower">🌹🌹🌹🌹🌹🌹</view>
+  </view>
+  <!--/顶部头像end-->
+  <!--动态-->
+<block wx:for="[1,2]" wx:key="unique">  
+        <view class="dynamic_space">
+            <view class="card">
+                <view class="card_top">
+                    <view class="left_part" >
+                        <view class="space_icon">
+                            <image src="http://ojhq3mgil.bkt.clouddn.com/478/20161227/201612271616015049.jpg"></image>
+                            </view> 
+                            <view class="nameAndTime">
+                                <text style="font-size: 10pt; color:red">轻性感</text>
+                                <text style="font-size: 8pt; color:#b4b4b4">4分钟前</text>
+                            </view>
+                    </view>
+                    <view class="about">…</view>
+                </view>
+                <view class="card_content">
+                    <image src="http://ojhq3mgil.bkt.clouddn.com/478/20161227/201612271616015049.jpg"></image>
+                </view>
+                <view class="card_bottom">
+                    <view class="bottom_left" style="font-size: 8pt; color:#b4b4b4;margin-top:10rpx;">
+                        <view class="flo">🌹  有10人送花</view>
+                    </view>
+                    <view class="bottom_right">
+                        <view class="send_flo">🌹</view>
+                        <view class="send_share">⤴️</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+</block>
+
+</view>
+
+
+

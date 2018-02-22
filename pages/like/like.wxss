@@ -1,0 +1,120 @@
+/* pages/like/like.wxss */
+.container{
+    background-color: #f8f8f8;
+}
+.top{
+    text-align: center;
+    background: #ffffff;
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    color: #000;
+    padding-top:50rpx;
+    padding-bottom: 30rpx;
+
+    
+}
+.photo{
+    width: 100rpx;
+    height:100rpx;
+    margin: 0 auto;
+    /*padding: 10px;*/
+    /*border: 1px solid #ff7981;*/
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+.photo image{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.name{
+    margin-top: 30rpx;
+    font-size: 10pt
+}
+.detail{
+    margin-top: 30rpx;
+    color: #b4b4b4;
+    font-size: 9pt
+
+}
+.flower{
+    margin-top: 30rpx;
+  
+}
+
+
+
+.dynamic_space{
+    margin-top: 25rpx;
+    background: #ffffff;
+    width: 96%;
+    color: #000;  
+    border-radius: 10px; 
+    padding-bottom: 20rpx;
+}
+
+.card{
+    width: 100%;
+}
+.card_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.left_part{
+    display: flex;
+    flex-direction: row; 
+}
+.space_icon{
+    width: 60rpx;
+    height:60rpx;
+    margin-top: 20rpx;
+    margin-left: 25rpx;
+    /*margin: 0 auto;*/
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;  
+}
+.space_icon image{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%; 
+}
+
+.nameAndTime{
+    margin-top: 20rpx;
+    margin-left: 25rpx;
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    margin-top: 20rpx;
+    margin-right: 20rpx;
+}
+
+.card_content{
+    margin-top: 20rpx;
+    width: 100%;
+    height:600rpx;
+}
+.card_content image{
+    width: 100%;
+    height: 100%; 
+}
+.card_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20rpx;
+}
+.bottom_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.send_share{
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
